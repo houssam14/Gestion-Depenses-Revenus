@@ -1,9 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Inscription">
+    tools:context=".Inscription"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
 
-</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Insc"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nom"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Prenom"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Mail"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        >
+        <Spinner
+            android:id="@+id/pays"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="44"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:entries="@array/Pays"
+            />
+        <Spinner
+            android:id="@+id/devise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="56"
+            android:entries="@array/Devise"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/mtpass"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/conf"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/conf"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <Button
+            android:id="@+id/btnEnr"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:hint="@string/Enr"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

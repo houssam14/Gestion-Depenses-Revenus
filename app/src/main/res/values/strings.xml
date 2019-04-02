@@ -1,4 +1,34 @@
 <resources>
     <string name="app_name">Gestion-des-Depenses-Revenus</string>
     <string name="suivant">Suivant</string>
+
+    <string name="Insc">Inscrivez vous</string>
+    <string name="Nom">Nom</string>
+    <string name="Prenom">Prenom</string>
+    <string name="Mail">Mail</string>
+    <string name="mtpass">Mot De Pass</string>
+    <string name="conf">Confirmation</string>
+    <string name="Enr">Enregistrer</string>
+    <string-array name="Pays">
+        <item>Pays</item>
+        <item>Maroc</item>
+        <item>Tunisie</item>
+        <item>Italie</item>
+        <item>France</item>
+        <item>USA</item>
+        <item>Espagne</item>
+        <item>Egypte</item>
+        <item>Bresil</item>
+    </string-array>
+    <string-array name="Devise">
+        <item>monnaie</item>
+        <item>MAD</item>
+        <item>$</item>
+        <item>€</item>
+        <item>DZD</item>
+        <item>EGP</item>
+        <item>TND</item>
+        <item>CNY</item>
+        <item>CAD</item>
+    </string-array>
 </resources>
