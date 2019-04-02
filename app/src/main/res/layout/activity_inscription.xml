@@ -60,6 +60,7 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:padding="5dp"
+
         >
         <EditText
             android:id="@+id/prenom"
