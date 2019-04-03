@@ -32,6 +32,9 @@ public class SplashScreen extends Activity {
             // TODO Auto-generated method stub
             super.onPause();
             finish();
+
+            //www.stack.com
+
         }
 
     }
