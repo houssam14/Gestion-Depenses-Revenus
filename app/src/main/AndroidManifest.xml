@@ -29,7 +29,8 @@
         </activity>
         <activity android:name=".Inscription" />
         <activity android:name=".SaisieRev" />
-        <activity android:name=".InfoUtilisateur"></activity>
+        <activity android:name=".InfoUtilisateur" />
+        <activity android:name=".AproposDeLapp"></activity>
     </application>
 
 </manifest>
