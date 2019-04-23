@@ -31,5 +31,5 @@
         <item>CNY</item>
         <item>CAD</item>
     </string-array>
-    <string name="propos">Une application conçue pour organiser vos dépenses et vos revenus, enregistrer vos déplacements d\'argent par date, puis examiner les totaux quotidiens, mensuels ou annuels dans des rapports. Rappelez-vous qu\'organiser vos dépenses vous permet d\'avoir un meilleur contrôle sur votre argent.</string>
+    <string name="propos">Une application pour organiser vos dépenses et vos revenus, enregistrer vos déplacements d\'argent par date, puis examiner les totaux quotidiens, mensuels ou annuels dans des rapports. Rappelez-vous qu\'organiser vos dépenses vous permet d\'avoir un meilleur contrôle sur votre argent.</string>
 </resources>
