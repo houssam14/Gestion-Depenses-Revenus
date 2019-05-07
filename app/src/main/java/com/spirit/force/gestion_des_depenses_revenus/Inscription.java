@@ -51,7 +51,7 @@ public class Inscription extends AppCompatActivity {
                 dbhelper.insert(txtNom.getText().toString(),txtPrenom.getText().toString(),txtmail.getText().toString(),
                         Spays.getSelectedItem().toString(),Sdevise.getSelectedItem().toString(),txtPassword.getText().toString());
                 Utilisateur Util=arr.get(arr.size()-1);
-                Intent i=new Intent(getApplicationContext(),InfoUtilisateur.class);
+                Intent i=new Intent(getApplicationContext(),SaisieRev.class);
                 i.putExtra("extraName",Util.getNom());
                 i.putExtra("extraPrenom",Util.getPrenom());
                 i.putExtra("extraEmail",Util.getEmail());

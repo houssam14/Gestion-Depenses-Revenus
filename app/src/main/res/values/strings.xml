@@ -31,5 +31,13 @@
         <item>CNY</item>
         <item>CAD</item>
     </string-array>
+    <string-array name="revenus">
+        <item>salaire</item>
+        <item>credit</item>
+        <item>compte epargne</item>
+        <item>pret</item>
+        <item></item>
+    </string-array>
     <string name="propos">Une application pour organiser vos dépenses et vos revenus, enregistrer vos déplacements d\'argent par date, puis examiner les totaux quotidiens, mensuels ou annuels dans des rapports. Rappelez-vous qu\'organiser vos dépenses vous permet d\'avoir un meilleur contrôle sur votre argent.</string>
+    <string name="montant">Montant</string>
 </resources>
